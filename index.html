@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> <!--This is the website browser name area.. this will tell the browser how to handle the page-->
+        <meta charset="UTF-8"> <!--give the information to the website that it should iinclude all the symbols in the utf8 character set and emojis-->
+        <title>Anuradha's portfolio</title>
+    </head>
+    <body>
+        <table cellspacing="20">
+            <tr>
+                <td><img src="https://pbs.twimg.com/profile_images/1437449548838825984/E-MC4ifc_400x400.jpg" alt="anuradha.jpg"></td>
+                <td><h1>ANURADHA</h1>
+                <p><em><strong>Multi-disciplinary designer</strong></em></p>
+                <!--you could use <i> tag but always use <em> as it is emphasis rather than just about the style, 
+                                    both do the same thing but em has more information compared to <i>-->
+                <!--in html we are more concerned about text structure than styling so dont bother about i tag use em-->
+                <!--samegoes for bold vs strong, bold is styling while strong is emphasis, leave all the styling to the css, only worry about text on html-->
+                <p>
+                    Hi! I am Anuradha, a multidisciplinary designer, architect, artist & writer based in Bangalore.
+                    <br> My personal design philosophy is minimalist and swings from luxury minimalism to rustic minimalism.
+                    <br>However, I love new challenges that push me to explore new horizons of problem-solving, aesthetic & skill.
+                </p></td>
+            </tr>
+        </table>
+        <!--
+            <div style="text-align:center">
+            <img src="https://pbs.twimg.com/profile_images/1437449548838825984/E-MC4ifc_400x400.jpg" alt="anuradha.jpg">
+            <h1>ANURADHA</h1>
+            <p><em><strong>Multi-disciplinary designer</strong></em></p>
+                    <--you could use <i> tag but always use <em> as it is emphasis rather than just about the style, 
+                        both do the same thing but em has more information compared to <i>->
+                    <!--in html we are more concerned about text structure than styling so dont bother about i tag use em->
+                    <!--samegoes for bold vs strong, bold is styling while strong is emphasis, leave all the styling to the css, only worry about text on html->
+            <p>
+                Hi! I am Anuradha, a multidisciplinary designer, architect, artist & writer based in Bangalore.
+                <br> My personal design philosophy is minimalist and swings from luxury minimalism to rustic minimalism. 
+                <br>However, I love new challenges that push me to explore new horizons of problem-solving, aesthetic & skill.
+            </p>
+            </div>
+         -->
+        <hr size="3", color="8DFF33">
+        <h3>Work Experience</h3>
+        <table cellspacing ="10"><!--add the head body and foot separate, always isolate them, do not put them without it-->
+            <thead>
+                <tr><!--you can but dont put th (table header) in outside rather than defining 
+                    it under thead as it can create isolation problems if you work on styling them differently-->
+                    <th>Date range</th>
+                    <th>Designation</th>
+                    <th>Company Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Aug 2020 - Aug 2022</td>
+                    <td>UX Specialist</td>
+                    <td>CSS Corp, Bangalore</td>
+                </tr>
+                <tr>
+                    <td>May 2019 - April 2020</td>
+                    <td>Senior Architect</td>
+                    <td>Restore Design, Bangalore</td>
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>      
+        </table>
+        <hr size="1" , color="GGGGGF">
+        <h3>Skills</h3>
+        <table border="1">
+            <tr>
+                <td>
+                    <table cellspacing="10">
+                        <tr>
+                            <td>HTML</td>
+                            <td>⭐⭐⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>⭐⭐⭐⭐⭐</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table cellspacing="10">
+                        <tr>
+                            <td>Adobe XD</td>
+                            <td>⭐⭐⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>Photoshop</td>
+                            <td>⭐⭐⭐⭐⭐</td> 
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <!--
+        <ul> unordered list, this is the old one now we have added a table
+            <li>CSS Corp - UX Specialist</li>
+            <li>Restore Design - Senior Architect</li>
+            <li>GNA - Junior Associate Architect</li>
+            <li>SALT Architects - Junior Architect</li>
+        </ul>
+        -->
+        <h3>Education</h3>
+        <ol type="i"><!--ordered list, numbered list-->
+            <li>Bachelor's of Archicture - BIT Mesra</li>
+            <li>High School - DAV Public School</li>
+        </ol>
+        <hr> 
+        <a href="contact me.html">Contact Me</a>  
+        <br> 
+        <a href="hobbies.html">My Hobbies</a>
+    </body>
+</html>
